@@ -1,5 +1,4 @@
 #import "NerdNearbyAppDelegate.h"
-#import "NNTableViewController.h"
 
 @implementation NerdNearbyAppDelegate
 
