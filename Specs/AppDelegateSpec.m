@@ -1,29 +1,37 @@
 #import "Kiwi.h"
+#import "NerdNearbyAppDelegate.h"
 
-SPEC_BEGIN(TestSpec)
 
-describe(@"A simple test", ^{
-    it(@"works", ^{
-        // Try changing the should's to shouldNot's, and vice-versa to see
-        // failures in action.
+SPEC_BEGIN(AppDelegateSpec)
+
+describe(@"application:didFinishLaunchingWithOptions:", ^{
+    it(@"creates a navigation controller", ^{
+        NerdNearbyAppDelegate *appDelegate = [[[NerdNearbyAppDelegate alloc] init] autorelease];
+        [appDelegate setWindow:[[[UIWindow alloc] init] autorelease]];
+        [appDelegate application:nil didFinishLaunchingWithOptions:nil];
+        UIWindow *window = [appDelegate window];
+        UIViewController *windowViewController = [window rootViewController];
         
-        id anArray = [NSArray arrayWithObject:@"Foo"];
-        [[anArray should] contain:@"Foo"];
-        [[anArray shouldNot] contain:@"Bar"];
+        [[[windowViewController class] should] equal:[UINavigationController class]];
         
-        [[theValue(42) should] beGreaterThan:theValue(10.0f)];
-        [[theValue(42) shouldNot] beLessThan:theValue(20)];
         
-        id scannerMock = [NSScanner mock];
-        [[scannerMock should] receive:@selector(setScanLocation:)];
-        [scannerMock setScanLocation:10];
-        
-        [scannerMock stub:@selector(string) andReturn:@"Unicorns"];
-        [[[scannerMock string] should] equal:@"Unicorns"];
-        
-        [[theBlock(^{
-            [NSException raise:NSInternalInconsistencyException format:@"oh-oh"];
-        }) should] raise];
+//        id anArray = [NSArray arrayWithObject:@"Foo"];
+//        [[anArray should] contain:@"Foo"];
+//        [[anArray shouldNot] contain:@"Bar"];
+//        
+//        [[theValue(42) should] beGreaterThan:theValue(10.0f)];
+//        [[theValue(42) shouldNot] beLessThan:theValue(20)];
+//        
+//        id scannerMock = [NSScanner mock];
+//        [[scannerMock should] receive:@selector(setScanLocation:)];
+//        [scannerMock setScanLocation:10];
+//        
+//        [scannerMock stub:@selector(string) andReturn:@"Unicorns"];
+//        [[[scannerMock string] should] equal:@"Unicorns"];
+//        
+//        [[theBlock(^{
+//            [NSException raise:NSInternalInconsistencyException format:@"oh-oh"];
+//        }) should] raise];
     });
 });
 

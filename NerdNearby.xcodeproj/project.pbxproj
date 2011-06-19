@@ -13,18 +13,6 @@
 		472E7FC713ADA2AB00B69A1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 472E7FC513ADA2AB00B69A1F /* InfoPlist.strings */; };
 		472E7FCA13ADA2AB00B69A1F /* Specs.h in Resources */ = {isa = PBXBuildFile; fileRef = 472E7FC913ADA2AB00B69A1F /* Specs.h */; };
 		472E7FCC13ADA2AB00B69A1F /* Specs.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E7FCB13ADA2AB00B69A1F /* Specs.m */; };
-		472E80F213ADA2F700B69A1F /* Carrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E7FFA13ADA2F700B69A1F /* Carrier.m */; };
-		472E80F313ADA2F700B69A1F /* Cruiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E7FFC13ADA2F700B69A1F /* Cruiser.m */; };
-		472E80F413ADA2F700B69A1F /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E7FFE13ADA2F700B69A1F /* Engine.m */; };
-		472E80F513ADA2F700B69A1F /* Fighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800013ADA2F700B69A1F /* Fighter.m */; };
-		472E80F613ADA2F700B69A1F /* KiwiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800313ADA2F700B69A1F /* KiwiAppDelegate.m */; };
-		472E80F713ADA2F700B69A1F /* KiwiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800513ADA2F700B69A1F /* KiwiViewController.m */; };
-		472E80F813ADA2F700B69A1F /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800813ADA2F700B69A1F /* Robot.m */; };
-		472E80F913ADA2F700B69A1F /* SpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800A13ADA2F700B69A1F /* SpaceShip.m */; };
-		472E80FA13ADA2F700B69A1F /* StringPrefixMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800C13ADA2F700B69A1F /* StringPrefixMatcher.m */; };
-		472E80FB13ADA2F700B69A1F /* TestReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E800F13ADA2F700B69A1F /* TestReporter.m */; };
-		472E80FC13ADA2F700B69A1F /* TestSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E801113ADA2F700B69A1F /* TestSpy.m */; };
-		472E80FD13ADA2F700B69A1F /* TestVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E801313ADA2F700B69A1F /* TestVerifier.m */; };
 		472E80FE13ADA2F700B69A1F /* Contributors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 472E801413ADA2F700B69A1F /* Contributors.txt */; };
 		472E810313ADA2F700B69A1F /* KWAfterAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E801F13ADA2F700B69A1F /* KWAfterAllNode.m */; };
 		472E810413ADA2F700B69A1F /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E802113ADA2F700B69A1F /* KWAfterEachNode.m */; };
@@ -99,36 +87,8 @@
 		472E814913ADA2F700B69A1F /* KiwiTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 472E80B513ADA2F700B69A1F /* KiwiTests-Info.plist */; };
 		472E814A13ADA2F700B69A1F /* KiwiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472E80B613ADA2F700B69A1F /* KiwiViewController.xib */; };
 		472E814B13ADA2F700B69A1F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472E80B713ADA2F700B69A1F /* MainWindow.xib */; };
-		472E814C13ADA2F700B69A1F /* KWBeBetweenMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BA13ADA2F700B69A1F /* KWBeBetweenMatcherTest.m */; };
-		472E814D13ADA2F700B69A1F /* KWBeEmptyMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BB13ADA2F700B69A1F /* KWBeEmptyMatcherTest.m */; };
-		472E814E13ADA2F700B69A1F /* KWBeIndenticalToMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BC13ADA2F700B69A1F /* KWBeIndenticalToMatcherTest.m */; };
-		472E814F13ADA2F700B69A1F /* KWBeKindOfClassMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BD13ADA2F700B69A1F /* KWBeKindOfClassMatcherTest.m */; };
-		472E815013ADA2F700B69A1F /* KWBeMemberOfClassMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BE13ADA2F700B69A1F /* KWBeMemberOfClassMatcherTest.m */; };
-		472E815113ADA2F700B69A1F /* KWBeTrueMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80BF13ADA2F700B69A1F /* KWBeTrueMatcherTest.m */; };
-		472E815213ADA2F700B69A1F /* KWBeWithinMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C013ADA2F700B69A1F /* KWBeWithinMatcherTest.m */; };
-		472E815313ADA2F700B69A1F /* KWBlockRaiseMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C113ADA2F700B69A1F /* KWBlockRaiseMatcherTest.m */; };
-		472E815413ADA2F700B69A1F /* KWConformToProtocolMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C213ADA2F700B69A1F /* KWConformToProtocolMatcherTest.m */; };
-		472E815513ADA2F700B69A1F /* KWContainMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C313ADA2F700B69A1F /* KWContainMatcherTest.m */; };
-		472E815613ADA2F700B69A1F /* KWContextNodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C413ADA2F700B69A1F /* KWContextNodeTest.m */; };
-		472E815713ADA2F700B69A1F /* KWDeviceInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C513ADA2F700B69A1F /* KWDeviceInfoTest.m */; };
-		472E815813ADA2F700B69A1F /* KWEqualMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C613ADA2F700B69A1F /* KWEqualMatcherTest.m */; };
-		472E815913ADA2F700B69A1F /* KWExampleGroupBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C713ADA2F700B69A1F /* KWExampleGroupBuilderTest.m */; };
-		472E815A13ADA2F700B69A1F /* KWHamcrestMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C813ADA2F700B69A1F /* KWHamcrestMatcherTest.m */; };
-		472E815B13ADA2F700B69A1F /* KWHaveMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80C913ADA2F700B69A1F /* KWHaveMatcherTest.m */; };
-		472E815C13ADA2F700B69A1F /* KWHaveValueMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CA13ADA2F700B69A1F /* KWHaveValueMatcherTest.m */; };
-		472E815D13ADA2F700B69A1F /* KWInequalityMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CB13ADA2F700B69A1F /* KWInequalityMatcherTest.m */; };
-		472E815E13ADA2F700B69A1F /* KWMessagePatternTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CC13ADA2F700B69A1F /* KWMessagePatternTest.m */; };
-		472E815F13ADA2F700B69A1F /* KWMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CD13ADA2F700B69A1F /* KWMockTest.m */; };
-		472E816013ADA2F700B69A1F /* KWRaiseMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CE13ADA2F700B69A1F /* KWRaiseMatcherTest.m */; };
-		472E816113ADA2F700B69A1F /* KWRealObjectSpyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80CF13ADA2F700B69A1F /* KWRealObjectSpyTest.m */; };
-		472E816213ADA2F700B69A1F /* KWRealObjectStubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D013ADA2F700B69A1F /* KWRealObjectStubTest.m */; };
-		472E816313ADA2F700B69A1F /* KWReceiveMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D113ADA2F700B69A1F /* KWReceiveMatcherTest.m */; };
-		472E816413ADA2F700B69A1F /* KWRespondToSelectorMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D213ADA2F700B69A1F /* KWRespondToSelectorMatcherTest.m */; };
-		472E816513ADA2F700B69A1F /* KWStringUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D313ADA2F700B69A1F /* KWStringUtilitiesTest.m */; };
-		472E816613ADA2F700B69A1F /* KWStubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D413ADA2F700B69A1F /* KWStubTest.m */; };
-		472E816713ADA2F700B69A1F /* KWTestCaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D513ADA2F700B69A1F /* KWTestCaseTest.m */; };
-		472E816813ADA2F700B69A1F /* KWValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E80D613ADA2F700B69A1F /* KWValueTest.m */; };
 		472E817613ADA33A00B69A1F /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E817513ADA33A00B69A1F /* AppDelegateSpec.m */; };
+		4762F61B13AEAEE600179495 /* NerdNearbyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF611B13A99144007F3ABF /* NerdNearbyAppDelegate.m */; };
 		D41DA05F13A996F50096C44A /* YAJLiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41DA05E13A996F50096C44A /* YAJLiOS.framework */; };
 		D4DF610C13A99144007F3ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF610B13A99144007F3ABF /* UIKit.framework */; };
 		D4DF610E13A99144007F3ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF610D13A99144007F3ABF /* Foundation.framework */; };
@@ -939,18 +899,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				472E7FCC13ADA2AB00B69A1F /* Specs.m in Sources */,
-				472E80F213ADA2F700B69A1F /* Carrier.m in Sources */,
-				472E80F313ADA2F700B69A1F /* Cruiser.m in Sources */,
-				472E80F413ADA2F700B69A1F /* Engine.m in Sources */,
-				472E80F513ADA2F700B69A1F /* Fighter.m in Sources */,
-				472E80F613ADA2F700B69A1F /* KiwiAppDelegate.m in Sources */,
-				472E80F713ADA2F700B69A1F /* KiwiViewController.m in Sources */,
-				472E80F813ADA2F700B69A1F /* Robot.m in Sources */,
-				472E80F913ADA2F700B69A1F /* SpaceShip.m in Sources */,
-				472E80FA13ADA2F700B69A1F /* StringPrefixMatcher.m in Sources */,
-				472E80FB13ADA2F700B69A1F /* TestReporter.m in Sources */,
-				472E80FC13ADA2F700B69A1F /* TestSpy.m in Sources */,
-				472E80FD13ADA2F700B69A1F /* TestVerifier.m in Sources */,
 				472E810313ADA2F700B69A1F /* KWAfterAllNode.m in Sources */,
 				472E810413ADA2F700B69A1F /* KWAfterEachNode.m in Sources */,
 				472E810513ADA2F700B69A1F /* KWAsyncVerifier.m in Sources */,
@@ -1017,36 +965,8 @@
 				472E814213ADA2F700B69A1F /* NSObject+KiwiVerifierAdditions.m in Sources */,
 				472E814313ADA2F700B69A1F /* NSValue+KiwiAdditions.m in Sources */,
 				472E814513ADA2F700B69A1F /* main.m in Sources */,
-				472E814C13ADA2F700B69A1F /* KWBeBetweenMatcherTest.m in Sources */,
-				472E814D13ADA2F700B69A1F /* KWBeEmptyMatcherTest.m in Sources */,
-				472E814E13ADA2F700B69A1F /* KWBeIndenticalToMatcherTest.m in Sources */,
-				472E814F13ADA2F700B69A1F /* KWBeKindOfClassMatcherTest.m in Sources */,
-				472E815013ADA2F700B69A1F /* KWBeMemberOfClassMatcherTest.m in Sources */,
-				472E815113ADA2F700B69A1F /* KWBeTrueMatcherTest.m in Sources */,
-				472E815213ADA2F700B69A1F /* KWBeWithinMatcherTest.m in Sources */,
-				472E815313ADA2F700B69A1F /* KWBlockRaiseMatcherTest.m in Sources */,
-				472E815413ADA2F700B69A1F /* KWConformToProtocolMatcherTest.m in Sources */,
-				472E815513ADA2F700B69A1F /* KWContainMatcherTest.m in Sources */,
-				472E815613ADA2F700B69A1F /* KWContextNodeTest.m in Sources */,
-				472E815713ADA2F700B69A1F /* KWDeviceInfoTest.m in Sources */,
-				472E815813ADA2F700B69A1F /* KWEqualMatcherTest.m in Sources */,
-				472E815913ADA2F700B69A1F /* KWExampleGroupBuilderTest.m in Sources */,
-				472E815A13ADA2F700B69A1F /* KWHamcrestMatcherTest.m in Sources */,
-				472E815B13ADA2F700B69A1F /* KWHaveMatcherTest.m in Sources */,
-				472E815C13ADA2F700B69A1F /* KWHaveValueMatcherTest.m in Sources */,
-				472E815D13ADA2F700B69A1F /* KWInequalityMatcherTest.m in Sources */,
-				472E815E13ADA2F700B69A1F /* KWMessagePatternTest.m in Sources */,
-				472E815F13ADA2F700B69A1F /* KWMockTest.m in Sources */,
-				472E816013ADA2F700B69A1F /* KWRaiseMatcherTest.m in Sources */,
-				472E816113ADA2F700B69A1F /* KWRealObjectSpyTest.m in Sources */,
-				472E816213ADA2F700B69A1F /* KWRealObjectStubTest.m in Sources */,
-				472E816313ADA2F700B69A1F /* KWReceiveMatcherTest.m in Sources */,
-				472E816413ADA2F700B69A1F /* KWRespondToSelectorMatcherTest.m in Sources */,
-				472E816513ADA2F700B69A1F /* KWStringUtilitiesTest.m in Sources */,
-				472E816613ADA2F700B69A1F /* KWStubTest.m in Sources */,
-				472E816713ADA2F700B69A1F /* KWTestCaseTest.m in Sources */,
-				472E816813ADA2F700B69A1F /* KWValueTest.m in Sources */,
 				472E817613ADA33A00B69A1F /* AppDelegateSpec.m in Sources */,
+				4762F61B13AEAEE600179495 /* NerdNearbyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

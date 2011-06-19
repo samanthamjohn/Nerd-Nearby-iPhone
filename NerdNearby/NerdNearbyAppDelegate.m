@@ -7,7 +7,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navController = [[[UINavigationController alloc] init] autorelease];
+    [[navController navigationBar] setTintColor:[UIColor colorWithRed:191.f/255.f green:215.f/255.f blue:59.f/255.f alpha:1.f]];
+    [[self window] setRootViewController:navController];
     [self.window makeKeyAndVisible];
     return YES;
 }
