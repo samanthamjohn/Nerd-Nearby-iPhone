@@ -1,12 +1,5 @@
-//
-//  NerdNearbyAppDelegate.m
-//  NerdNearby
-//
-//  Created by Sean Moon on 6/15/11.
-//  Copyright 2011 Pivotal Labs. All rights reserved.
-//
-
 #import "NerdNearbyAppDelegate.h"
+#import "NNTableViewController.h"
 
 @implementation NerdNearbyAppDelegate
 

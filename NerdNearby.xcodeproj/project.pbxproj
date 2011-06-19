@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41DA05F13A996F50096C44A /* YAJLiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41DA05E13A996F50096C44A /* YAJLiOS.framework */; };
 		D4DF610C13A99144007F3ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF610B13A99144007F3ABF /* UIKit.framework */; };
 		D4DF610E13A99144007F3ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF610D13A99144007F3ABF /* Foundation.framework */; };
 		D4DF611013A99144007F3ABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF610F13A99144007F3ABF /* CoreGraphics.framework */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41DA05E13A996F50096C44A /* YAJLiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJLiOS.framework; sourceTree = "<group>"; };
 		D4DF610713A99144007F3ABF /* NerdNearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdNearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DF610B13A99144007F3ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4DF610D13A99144007F3ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +40,7 @@
 				D4DF610C13A99144007F3ABF /* UIKit.framework in Frameworks */,
 				D4DF610E13A99144007F3ABF /* Foundation.framework in Frameworks */,
 				D4DF611013A99144007F3ABF /* CoreGraphics.framework in Frameworks */,
+				D41DA05F13A996F50096C44A /* YAJLiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		D4DF610A13A99144007F3ABF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D41DA05E13A996F50096C44A /* YAJLiOS.framework */,
 				D4DF610B13A99144007F3ABF /* UIKit.framework */,
 				D4DF610D13A99144007F3ABF /* Foundation.framework */,
 				D4DF610F13A99144007F3ABF /* CoreGraphics.framework */,
@@ -195,6 +199,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -210,6 +218,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -219,6 +231,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NerdNearby/NerdNearby-Prefix.pch";
@@ -234,6 +250,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NerdNearby/NerdNearby-Prefix.pch";
 				INFOPLIST_FILE = "NerdNearby/NerdNearby-Info.plist";
